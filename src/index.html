@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login form - Wojciech Smolarek</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <div class="wrapper" id="content">
+    <div class="card" id="container">
+      <img src="img/avatar.png" alt="avatar image" class="avatarImage">
+      <form class="validationForm" id="form" action="#" method="post" novalidate>
+        <label for="email">email address</label>
+        <div class="required"><input type="email" id="email" placeholder="Enter your email address" aria-required="true"><i>*</i><span></span></div>
+
+        <label for="password">password</label>
+        <div class="required"><input type="password" id="password" placeholder="Enter your password" aria-required="true"><i>*</i></div>
+
+        <input type="checkbox" id="remember" aria-checked="false">
+        <label for="remember">remember me</label>
+
+        <a href="reset.html" class="link resetLink">Forgotten password?</a>
+        <input type="submit" value="LOGIN">
+      </form>
+
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <noscript>
+  Do pełnej funkcjonalności strony potrzebujesz włączonej obsługi skryptów.
+  Tu znajdziesz <a href="https://www.enable-javascript.com/pl/" target="_blank">
+  instrukcje, które pozwolą Ci włączyć skrypty w Twojej przeglądarce</a>.
+</noscript>
+</body>
+
+</html>
